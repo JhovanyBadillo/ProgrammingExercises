@@ -9,7 +9,8 @@ public class Time{
 		int rem_hours = 24 - hour;
 		System.out.println("Number of seconds remaining in the day: " + (rem_hours*3600 - minute*60 - second));
 		System.out.println("Exact value. In a day, there are " + 24*3600 + " seconds");
-		System.out.println("Value of this program: " + ((hour*3600 + minute*60 + second)+(rem_hours*3600 - minute*60 - second)));
+		System.out.println("Value of this program: " + 
+				   ((hour*3600 + minute*60 + second)+(rem_hours*3600 - minute*60 - second)));
 		double seconds_passed = hour*3600 + minute*60 + second;
 		double total_seconds = 24*3600;
 		System.out.println("Percentage of the day that has passed: " + ((seconds_passed/total_seconds)*100) + "%");
