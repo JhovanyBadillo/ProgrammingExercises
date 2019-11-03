@@ -1,0 +1,3 @@
+This folder contains code solutions to some end chapter's problems of the book: 
+Guide to Scientific Computing in C++ by Joe Pitt-Francis and Jonathan Whiteley. It is organized into
+subfolders each containing the set of problems of one chapter. 
